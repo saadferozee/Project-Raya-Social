@@ -1,6 +1,6 @@
-# 📌 Raya Social
+# Raya Social
 
-## 🚀 Project Overview
+## Project Overview
 This project is a fully responsive web implementation based on a provided Figma design. The main objective was to accurately translate the design into a functional website while maintaining pixel-perfect layout, spacing, and typography.
 
 The project strictly follows the given requirements:
@@ -10,14 +10,14 @@ The project strictly follows the given requirements:
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 - HTML5
 - CSS3 (Vanilla)
 - JavaScript (Vanilla)
 
 ---
 
-## 🎯 Key Features
+## Key Features
 - Pixel-perfect implementation of the Figma design  
 - Fully responsive layout for all screen sizes  
 - Clean and structured codebase  
@@ -26,7 +26,7 @@ The project strictly follows the given requirements:
 
 ---
 
-## 📱 Responsiveness
+## Responsiveness
 The project is carefully designed to adapt across:
 - Desktop screens  
 - Tablets  
@@ -36,12 +36,12 @@ Media queries and flexible layouts were used to ensure a seamless user experienc
 
 ---
 
-## 🌐 Live Demo
+## Live Demo
 🔗 Live Project: https://saadferozee.github.io/Project-Raya-Social/
 
 ---
 
-## 📂 GitHub Repository
+## GitHub Repository
 🔗 Repository Link: https://github.com/saadferozee/Project-Raya-Social
 
 ---
@@ -49,7 +49,7 @@ Media queries and flexible layouts were used to ensure a seamless user experienc
 ## File Structure 
 
 ```
-RAAYA_SOCIAL/
+RAYA_SOCIAL/
 │
 ├── assets/
 │
@@ -72,7 +72,7 @@ RAAYA_SOCIAL/
 
 ---
 
-## 📖 How to Run Locally
+## How to Run Locally
 1. Clone the repository:
 ```bash
    git clone https://github.com/saadferozee/Project-Raya-Social
@@ -98,3 +98,6 @@ RAAYA_SOCIAL/
 ## 🙌 Acknowledgement
 
 This project was completed as part of an assignment to demonstrate frontend development skills, attention to detail, and responsiveness handling.
+
+---
+###### ©saadferozee All right reserved.
