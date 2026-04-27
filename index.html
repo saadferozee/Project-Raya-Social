@@ -31,9 +31,9 @@
   <header>
     <!-- Navbar starts here -->
     <nav>
-      <div id="navbar" class="flex just-between">
+      <div id="navbar" class="flex-x just-between">
         <img id="nav-icon" src="./assets/Main-logo.png" alt="Raya Social logo">
-        <div id="navbar-middle" class="flex center-y">
+        <div id="navbar-middle" class="flex-x center-y">
           <button class="menu-btn">Home</button>
           <!-- Dropdown -->
           <div class="dropdown">
@@ -49,7 +49,7 @@
           <button class="menu-btn">Pricing</button>
           <button class="menu-btn">White Level</button>
         </div>
-        <div id="navbar-end" class="flex center-y">
+        <div id="navbar-end" class="flex-x center-y">
           <button class="login-btn">Log In</button>
           <button class="demo-btn">Book a Demo</button>
         </div>
@@ -77,13 +77,13 @@
           </div>
         </article>
         <div id="hero-right">
-          <div class="hero-images flex">
+          <div class="hero-images flex-x">
             <img src="./assets/PosterTemplate.png" alt="Poster template">
             <img src="./assets/PosterTemplate.png" alt="Poster template">
           </div>
           <div class="social-media-box">
             <h4>Social channel we work with</h4>
-            <div class="logo-container flex">
+            <div class="logo-container flex-x">
               <div class="social-media-logo instagram">
                 <i class="fa-brands fa-instagram"></i>
               </div>
@@ -111,7 +111,7 @@
   </header>
   <main>
     <!-- Client Showcase section starts here -->
-    <section class="client-showcase-section flex">
+    <section class="client-showcase-section flex-x">
       <div class="left-div">
         <h3>50+</h3>
         <h5>Our clients are featured in</h5>
@@ -149,10 +149,10 @@
         <p>Our fixed monthly rate covers all your creative needs, with predictable pricing, no contracts, and unlimited
           revisions. <br>Explore our services to find the perfect solution for your brand's growth!</p>
       </div>
-      <div class="package-section flex">
-        <div class="package-section-box flex">
+      <div class="package-section flex-x">
+        <div class="package-section-box flex-x">
           <div class="package-left">
-            <div class="package-heading flex">
+            <div class="package-heading flex-x">
               <img src="./assets/checkmark.png" alt="checkmark">
               <h4>What we provide ?</h4>
             </div>
@@ -182,7 +182,7 @@
             </div>
           </div>
           <hr>
-          <div class="package-right flex">
+          <div class="package-right flex-x">
             <div class="package">
               <h5>5 Short-From video - $99/1 week</h5>
               <p>Tailored graphic and video content packages.</p>
@@ -213,9 +213,9 @@
       </div>
       <!-- Raw video clip -->
       <article>
-        <div class="our-view flex">
+        <div class="our-view flex-x">
           <div class="our-view-details">
-            <div class="flex">
+            <div class="flex-x">
               <span><i class="fa-solid fa-circle-check"></i></span>
               <h4>We take raw video and/or premium stock footage</h4>
             </div>
@@ -224,7 +224,7 @@
               from your video. Our team will help you choose the best hooks & content from your video.</p>
           </div>
           <div class="our-view-details">
-            <div class="flex">
+            <div class="flex-x">
               <span><i class="fa-solid fa-circle-check"></i></span>
               <h4>We structure it for views and watch-time</h4>
             </div>
@@ -233,7 +233,7 @@
               from your video. Our team will help you choose the best hooks & content from your video.</p>
           </div>
           <div class="our-view-details">
-            <div class="flex">
+            <div class="flex-x">
               <span><i class="fa-solid fa-circle-check"></i></span>
               <h4>We create your unique style and theme</h4>
             </div>
@@ -279,7 +279,8 @@
       <article id="demo-for-business">
         <div class="headline-with-photo">
           <h2>Videos <span><img src="./assets/peopleCity.jpg" alt="People in city photo"></span> for
-            <span>Business</span></h2>
+            <span>Business</span>
+          </h2>
         </div>
         <div id="videos-for-busyness"></div>
       </article>
@@ -287,7 +288,8 @@
       <article id="demo-for-personal-brands">
         <div class="headline-with-photo">
           <h2>Videos <span><img src="./assets/peopleCity.jpg" alt="People in city photo"></span> for
-            <span>Personal Brands</span></h2>
+            <span>Personal Brands</span>
+          </h2>
         </div>
         <div id="videos-for-personal-brands"></div>
       </article>
@@ -299,9 +301,11 @@
       <img src="" alt="">
       <div class="detatils">
         <h2>Why short-from Video so popular?</h2>
-        <p>Video content in the short form is not new. In actuality, the 2012-released short-form video app Vine was a pioneer of
-        the genre. <br><br>But as tech giants like Instagram, TikTok, and YouTube launched short-form video features of their own, what
-        had initially been a niche platform grew into something much larger.</p>
+        <p>Video content in the short form is not new. In actuality, the 2012-released short-form video app Vine was a
+          pioneer of
+          the genre. <br><br>But as tech giants like Instagram, TikTok, and YouTube launched short-form video features
+          of their own, what
+          had initially been a niche platform grew into something much larger.</p>
         <button class="demo-btn btn-gradient why-section-btn">Book a demo</button>
       </div>
     </section>
@@ -310,7 +314,7 @@
     <!-- Review section starts here -->
     <section id="review-section">
       <div class="headline-with-photo">
-        <h2>Client Stories See <span><img src="./assets/peopleCity.jpg" alt="People in city photo"></span> What <br> 
+        <h2>Client Stories See <span><img src="./assets/peopleCity.jpg" alt="People in city photo"></span> What <br>
           <span>Our Partners Say</span>
         </h2>
       </div>
@@ -322,13 +326,63 @@
     <!-- Review section ends here -->
 
     <!-- QnA section starts here -->
-    <section></section>
+    <section id="qna-section">
+      <div class="headline">
+        <h2>Frequently asked <span>questions</span></h2>
+        <p>If you have any questions that aren't listed below, feel free to schedule a demo to speak with someone from
+          our team.</p>
+      </div>
+
+    </section>
     <!-- QnA section ends here -->
   </main>
 
   <!-- Footer section starts here -->
   <footer>
+    <div class="footer flex-x just-between">
 
+      <div class="footer-start">
+        <img src="./assets/Main-logo.png" alt="Raaya Logo">
+        <div class="footer-about">
+          <h4>About Us</h4>
+          <p>
+            Raaya Social takes care of your social media posts for a flat monthly price. Quality content, posted to all your social media channels. Take your socials to the next level.
+          </p>
+        </div>
+        <div id="footer-btn" class="flex-x center-y">
+          <button class="login-btn">Log In</button>
+          <button class="demo-btn btn-gradient">Book a Demo</button>
+        </div>
+      </div>
+      <div class="footer-mid flex-x just-around">
+        <div class="footer-links flex-y">
+          <h5>Quick Links</h5>
+          <a href="">Home</a>
+          <a href="">About Us</a>
+          <a href="">Pricing</a>
+          <a href="">Reviews</a>
+          <a href="">Portfolio</a>
+        </div>
+        <div class="footer-services flex-y">
+          <h5>Services</h5>
+          <a href="">Social Media Management</a>
+          <a href="">Short-form Video content</a>
+          <a href="">Email Design</a>
+          <a href="">Blog Post</a>
+        </div>
+      </div>
+      <div class="footer-end">
+        <form id="contact-form" action="" class="flex-y">
+          <Label>Contact Us</Label>
+          <input type="email" placeholder="Email address">
+          <input type="number" placeholder="Phone number">
+          <textarea name="message" id="contact-message">Write your say</textarea>
+          <button type="submit">Submit <i class="fa-solid fa-arrow-right"></i></button>
+        </form>
+      </div>
+    </div>
+    <hr>
+    <h6>© 2026 SaadFerozee. All rights reserved.</h6>
   </footer>
   <!-- Footer section ends here -->
 

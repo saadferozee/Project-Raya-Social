@@ -2,24 +2,24 @@
     {
         "FAQ": [
             {
-                "quastion": "",
-                "answer": ""
+                "quastion": "What services do you offer?",
+                "answer": "We provide web development, UI/UX design, and digital solutions tailored to businesses and personal brands."
             },
             {
-                "quastion": "",
-                "answer": ""
+                "quastion": "How long does a project take?",
+                "answer": "Project timelines vary based on complexity, but most projects are completed within 2 to 6 weeks."
             },
             {
-                "quastion": "",
-                "answer": ""
+                "quastion": "Do you offer custom solutions?",
+                "answer": "Yes, all our services are customized based on your specific goals, audience, and requirements."
             },
             {
-                "quastion": "",
-                "answer": ""
+                "quastion": "What technologies do you use?",
+                "answer": "We use modern technologies like HTML, CSS, JavaScript, React, and backend tools depending on the project needs."
             },
             {
-                "quastion": "",
-                "answer": ""
+                "quastion": "How can I get started?",
+                "answer": "You can contact us through our website or email with your project details, and we will guide you through the next steps."
             }
         ]
     }
