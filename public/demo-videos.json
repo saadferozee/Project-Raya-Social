@@ -1,0 +1,56 @@
+[
+    {
+        "for-business": [
+            {
+                "type": "Health & Wellness",
+                "video": "https://cdn.prod.website-files.com/69906f1a4b655b90576f5029/69906f1a4b655b90576f5b4a_health-wellness-video-production-service-2.png"
+            },
+            {
+                "type": "Financial Services",
+                "video": "https://static.vecteezy.com/system/resources/thumbnails/022/323/480/small_2x/financial-analysts-analyze-business-financial-reports-on-a-digital-tablet-planning-investment-project-during-a-discussion-at-a-meeting-of-corporate-showing-the-results-of-their-successful-teamwork-video.jpg"
+            },
+            {
+                "type": "Real Estate",
+                "video": "https://static.vecteezy.com/system/resources/thumbnails/073/857/768/small/wooden-house-model-on-blueprint-background-representing-architectural-design-and-construction-planning-with-detailed-layout-elements-free-video.jpg"
+            },
+            {
+                "type": "Home Services",
+                "video": "https://i.ytimg.com/vi/3G8uXcs01eo/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLC5BCP2eR5esQ6sANUa3zZmG1OP-Q"
+            },
+            {
+                "type": "E-commerce",
+                "video": "https://media.gettyimages.com/id/1954855689/video/hands-home-and-tablet-screen-for-fashion-e-commerce-search-catalog-and-online-shopping-cart.jpg?s=640x640&k=20&c=hdYvEmJ8eApEeXyLWITfm-KyQ4WTjzAnlnqewKEtOO0="
+            },
+            {
+                "type": "Education & Coaching",
+                "video": "https://media.istockphoto.com/id/1556325206/video/businesswoman-leading-a-workshop.jpg?s=640x640&k=20&c=dId-cHkf4MX7Aj3RmoDv5y4TKmAY0D5DKxxvzQ3KX-Q="
+            }
+        ],
+        "for-personal-brands": [
+            {
+                "type": "Content Creator",
+                "video": "content-creator.mp4"
+            },
+            {
+                "type": "Influencer",
+                "video": "influencer.mp4"
+            },
+            {
+                "type": "Public Speaker",
+                "video": "public-speaker.mp4"
+            },
+            {
+                "type": "Coach / Mentor",
+                "video": "coach-mentor.mp4"
+            },
+            {
+                "type": "Freelancer",
+                "video": "freelancer.mp4"
+            },
+            {
+                "type": "Consultant",
+                "video": "consultant.mp4"
+            }
+        ]
+    }
+]

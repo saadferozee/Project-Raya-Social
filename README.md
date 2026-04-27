@@ -1,4 +1,4 @@
-# 📌 Project Title
+# 📌 Raya Social
 
 ## 🚀 Project Overview
 This project is a fully responsive web implementation based on a provided Figma design. The main objective was to accurately translate the design into a functional website while maintaining pixel-perfect layout, spacing, and typography.
@@ -37,25 +37,25 @@ Media queries and flexible layouts were used to ensure a seamless user experienc
 ---
 
 ## 🌐 Live Demo
-🔗 Live Project: [Add Your Live Link Here]
+🔗 Live Project: [Added soon]
 
 ---
 
 ## 📂 GitHub Repository
-🔗 Repository Link: [Add Your GitHub Repo Link Here]
+🔗 Repository Link: https://github.com/saadferozee/Project-Raya-Social
 
 ---
 
 ## 📖 How to Run Locally
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/saadferozee/Project-Raya-Social
 ````
 
 2. Navigate to the project folder:
 
    ```bash
-   cd your-repo-name
+   cd Raya_Social
    ```
 3. Open `index.html` in your browser
 

@@ -1,0 +1,79 @@
+[
+    {
+        "video-reviews": [
+            {
+                "clients-name": "Safur Hadi",
+                "clients-designation": "Influencer",
+                "link": ""
+            },
+            {
+                "clients-name": "Ayesha Rahman",
+                "clients-designation": "Fitness Coach",
+                "link": "https://example.com/video1"
+            },
+            {
+                "clients-name": "Tanvir Hasan",
+                "clients-designation": "Real Estate Consultant",
+                "link": "https://example.com/video2"
+            },
+            {
+                "clients-name": "Nusrat Jahan",
+                "clients-designation": "Entrepreneur",
+                "link": "https://example.com/video3"
+            },
+            {
+                "clients-name": "Mahmudul Karim",
+                "clients-designation": "Digital Marketer",
+                "link": "https://example.com/video4"
+            },
+            {
+                "clients-name": "Farhan Ahmed",
+                "clients-designation": "Startup Founder",
+                "link": "https://example.com/video5"
+            },
+            {
+                "clients-name": "Sadia Islam",
+                "clients-designation": "Content Creator",
+                "link": "https://example.com/video6"
+            }
+        ],
+        "written-reviews": [
+            {
+                "clients-name": "Andrei Kasyanau",
+                "clients-designation": "CEO at Glorium Technologies",
+                "review": "Our smart developers build innovative, efficient, and high- performance solutions. efficient, and high- performance solutions. efficient, and high- performance solutions.",
+                "star": 5
+            },
+            {
+                "clients-name": "Michael Tan",
+                "clients-designation": "Product Manager",
+                "review": "The team delivered exceptional quality with great attention to detail. Communication was smooth and deadlines were always met.",
+                "star": 5
+            },
+            {
+                "clients-name": "Sara Lim",
+                "clients-designation": "UX Designer",
+                "review": "Highly professional and creative. They understood our vision perfectly and turned it into a functional product.",
+                "star": 4
+            },
+            {
+                "clients-name": "David Chen",
+                "clients-designation": "CTO at TechNova",
+                "review": "Reliable and technically strong team. They helped us scale our platform efficiently without compromising performance.",
+                "star": 5
+            },
+            {
+                "clients-name": "Fatima Noor",
+                "clients-designation": "Business Consultant",
+                "review": "Great experience overall. The project was handled with care and delivered exactly as expected.",
+                "star": 4
+            },
+            {
+                "clients-name": "Rafiul Islam",
+                "clients-designation": "E-commerce Owner",
+                "review": "Their solutions significantly improved our online sales. Very satisfied with the outcome and support.",
+                "star": 5
+            }
+        ]
+    }
+]
