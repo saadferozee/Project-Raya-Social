@@ -46,6 +46,32 @@ Media queries and flexible layouts were used to ensure a seamless user experienc
 
 ---
 
+## File Structure 
+
+```
+RAAYA_SOCIAL/
+│
+├── assets/
+│
+├── data/
+│   ├── demo-videos.json
+│   ├── FAQ.json
+│   └── reviews.json
+│
+├── scripts/
+│   └── index.js
+│
+├── styles/
+│   ├── style-mobile.css
+│   ├── style-tablet.css
+│   └── style.css
+│
+├── index.html
+└── README.md
+```
+
+---
+
 ## 📖 How to Run Locally
 1. Clone the repository:
    ```bash

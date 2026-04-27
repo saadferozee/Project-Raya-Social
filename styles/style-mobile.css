@@ -13,7 +13,6 @@
 
     /* mobile navbar starts here */
     #navbar {
-        flex-direction: column;
         gap: 10px;
         padding: 10px;
     }
@@ -58,15 +57,18 @@
     .social-media-box {
         margin: 20px auto;
     }
+
     .logo-container {
         flex-wrap: wrap;
     }
+
     /* mobile hero section ends here */
 
     /* client showcase section mobile */
     .client-showcase-section {
         flex-direction: column;
     }
+
     .company-box {
         margin-top: 30px;
         justify-content: center;
@@ -82,7 +84,7 @@
     .video-card img {
         height: 220px;
     }
-    
+
     .video-row {
         gap: 12px;
         padding: 10px;
@@ -103,7 +105,7 @@
 
     /* mobile review section ends here */
 
-/* mobile sevice section starts here */
+    /* mobile sevice section starts here */
     .package-section-box {
         flex-direction: column;
         gap: 20px;
@@ -113,9 +115,10 @@
     .package-right {
         width: 100%;
     }
+
     /* mobile service section ends here */
 
-    
+
     /* demo section starts here */
     .demo-details {
         grid-template-columns: 1fr;
@@ -125,9 +128,10 @@
     .our-view {
         flex-direction: column;
     }
+
     /* demo section ends here */
 
-    
+
     /* mobile why section starts here */
     #why-section {
         flex-direction: column;
@@ -143,9 +147,10 @@
     #why-section .details h2 {
         font-size: 28px;
     }
+
     /* why section ends here */
 
-    
+
     /* QnA section starts here */
     .faq-container {
         padding: 0 16px;
@@ -154,9 +159,10 @@
     .faq-question h4 {
         font-size: 14px;
     }
+
     /* Mobile QnA section ends here */
 
-    
+
     /* footer section */
     .footer {
         flex-direction: column;
@@ -173,6 +179,7 @@
     footer hr {
         width: 90%;
     }
+
     /* footer ends here */
 }
 

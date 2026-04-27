@@ -11,6 +11,28 @@ const getData = async (path) => {
   return await res.json();
 };
 
+// Toggle menu
+
+const hamburger = document.getElementById('hamburger');
+const navbarMiddle = document.getElementById('navbar-middle');
+const navbarEnd = document.getElementById('navbar-end');
+
+hamburger.addEventListener('click', () => {
+  navbarMiddle.classList.toggle('active');
+  navbarEnd.classList.toggle('active');
+});
+
+const menuItems = document.querySelectorAll(
+  '#navbar-middle .menu-btn, #navbar-end button'
+);
+
+menuItems.forEach(item => {
+  item.addEventListener('click', () => {
+    navbarEnd.classList.remove('active');
+    navbarMiddle.classList.remove('active');
+  });
+});
+
 // Demo Videos 
 const renderVideos = async () => {
   const data = await getData("./data/demo-videos.json");

@@ -149,9 +149,17 @@ nav {
     color: #A657E7;
 }
 
+#hamburger {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* navbar ends here */
+
 /* Hero Section starts here */
 #hero-section {
-    padding-top: 180px;
+    padding-top: 150px;
     padding-bottom: 80px;
     gap: 30px;
     background: #f5f5f5;
