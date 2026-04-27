@@ -74,15 +74,15 @@ RAAYA_SOCIAL/
 
 ## 📖 How to Run Locally
 1. Clone the repository:
-   ```bash
+```bash
    git clone https://github.com/saadferozee/Project-Raya-Social
-````
+```
 
 2. Navigate to the project folder:
 
-   ```bash
+```bash
    cd Raya_Social
-   ```
+```
 3. Open `index.html` in your browser
 
 ---
