@@ -37,7 +37,7 @@ Media queries and flexible layouts were used to ensure a seamless user experienc
 ---
 
 ## 🌐 Live Demo
-🔗 Live Project: [Added soon]
+🔗 Live Project: https://saadferozee.github.io/Project-Raya-Social/
 
 ---
 
