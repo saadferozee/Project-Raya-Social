@@ -29,27 +29,27 @@
         "for-personal-brands": [
             {
                 "type": "Content Creator",
-                "video": "content-creator.mp4"
+                "video": "https://media.bazaarvoice.com/Shutterstock_2264677643.png"
             },
             {
                 "type": "Influencer",
-                "video": "influencer.mp4"
+                "video": "https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2019/01/video-strategy-influencer-partner.jpg"
             },
             {
                 "type": "Public Speaker",
-                "video": "public-speaker.mp4"
+                "video": "https://media.istockphoto.com/id/2153404057/video/software-company-lead-developer-making-an-inspiring-presentation-about-innovation-at.jpg?s=640x640&k=20&c=i95Uc2h54LKHQNmSxE0o2g1tbv58Bwzcyd9c9H9QP7I="
             },
             {
                 "type": "Coach / Mentor",
-                "video": "coach-mentor.mp4"
+                "video": "https://media.licdn.com/dms/image/v2/D4E24AQHTAMGcRtGQJw/live-thumbnail-low/B4EZaCUujKHEBg-/0/1745943226626?e=2147483647&v=beta&t=SoQ0wIKOcVcYKuNzWyqvaGwLj5KKIZtybT_ROdcngWs"
             },
             {
                 "type": "Freelancer",
-                "video": "freelancer.mp4"
+                "video": "https://miro.medium.com/v2/0*bIFEC-Vk4ApbAsiZ"
             },
             {
                 "type": "Consultant",
-                "video": "consultant.mp4"
+                "video": "https://media.gettyimages.com/id/1427546755/video/doctor-woman-handshake-patient-and-consultation-with-thank-you-or-welcome-hand-sign.jpg?s=640x640&k=20&c=xoNO6TiGEkK_XHSBXEA-Gvc9B13plTX9oCdFasTJnoo="
             }
         ]
     }
