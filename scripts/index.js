@@ -1,133 +1,112 @@
 console.log('script connected');
 
-
 // Fetch JSON
 const getData = async (path) => {
-    const res = await fetch(path);
-    return await res.json();
+  const res = await fetch(path);
+
+  if (!res.ok) {
+    throw new Error(`Failed to fetch ${path}`);
+  }
+
+  return await res.json();
 };
 
 // Demo Videos 
 const renderVideos = async () => {
-    const data = await getData("../public/demo-videos.json");
+  const data = await getData("./data/demo-videos.json");
 
-    const businessContainer = document.getElementById("videos-for-busyness");
-    const personalContainer = document.getElementById("videos-for-personal-brands");
+  const businessContainer = document.getElementById("videos-for-busyness");
+  const personalContainer = document.getElementById("videos-for-personal-brands");
 
-    const businessVideos = data[0]["for-business"];
-    const personalVideos = data[0]["for-personal-brands"];
+  const businessVideos = data[0]["for-business"];
+  const personalVideos = data[0]["for-personal-brands"];
 
-    businessContainer.innerHTML = businessVideos
-        .map(
-            (item) => `
-      <div class="video-card">
-        <img src="${item.video}" />
-        <div class="play-btn"><i class="fa-solid fa-play"></i></div>
-        <h4>${item.type}</h4>
-      </div>
-    `
-        )
-        .join("");
+  businessContainer.innerHTML = businessVideos.map(item => `
+        <div class="video-card">
+            <img src="${item.video}" />
+            <div class="play-btn"><i class="fa-solid fa-play"></i></div>
+            <h4>${item.type}</h4>
+        </div>
+    `).join("");
 
-    personalContainer.innerHTML = personalVideos
-        .map(
-            (item) => `
-      <div class="video-card">
-        <img src="${item.video}" />
-        <div class="play-btn"><i class="fa-solid fa-play"></i></div>
-        <h4>${item.type}</h4>
-      </div>
-    `
-        )
-        .join("");
+  personalContainer.innerHTML = personalVideos.map(item => `
+        <div class="video-card">
+            <img src="${item.video}" />
+            <div class="play-btn"><i class="fa-solid fa-play"></i></div>
+            <h4>${item.type}</h4>
+        </div>
+    `).join("");
 };
 
 // Reviews
 const renderReviews = async () => {
-    const data = await getData("../public/reviews.json");
+  const data = await getData("./data/reviews.json");
 
-    const videoContainer = document.querySelector(".video-reviews");
-    const writtenContainer = document.querySelector(".written-reviews");
+  const videoContainer = document.querySelector(".video-reviews");
+  const writtenContainer = document.querySelector(".written-reviews");
 
-    const videoReviews = data[0]["video-reviews"];
-    const writtenReviews = data[0]["written-reviews"];
+  const videoReviews = data[0]["video-reviews"];
+  const writtenReviews = data[0]["written-reviews"];
 
-    // Video reviews
-    videoContainer.innerHTML = videoReviews
-        .slice(0, 5)
-        .map(
-            (item) => `
-      <div class="video-review-card">
-        <img src="${item.link}" />
-        <div class="play-btn"><i class="fa-solid fa-play"></i></div>
-        <div class="client-info">
-          <h5>${item["clients-name"]}</h5>
-          <p>${item["clients-designation"]}</p>
+  videoContainer.innerHTML = videoReviews.slice(0, 5).map(item => `
+        <div class="video-review-card">
+            <img src="${item.link || './assets/review-placeholder.jpg'}" />
+            <div class="play-btn"><i class="fa-solid fa-play"></i></div>
+            <div class="client-info">
+                <h5>${item["clients-name"]}</h5>
+                <p>${item["clients-designation"]}</p>
+            </div>
         </div>
-      </div>
-    `
-        )
-        .join("");
+    `).join("");
 
-    // Written reviews
-    writtenContainer.innerHTML = writtenReviews
-        .map(
-            (item) => `
-      <div class="written-card">
-        <div class="top">
-          <div>
-            <h5>${item["clients-name"]}</h5>
-            <p>${item["clients-designation"]}</p>
-          </div>
-          <span>⭐ (${item.star}.0)</span>
+  writtenContainer.innerHTML = writtenReviews.map(item => `
+        <div class="written-card">
+            <div class="top">
+                <div>
+                    <h5>${item["clients-name"]}</h5>
+                    <p>${item["clients-designation"]}</p>
+                </div>
+                <span>⭐ (${item.star}.0)</span>
+            </div>
+            <p class="review">${item.review}</p>
         </div>
-        <p class="review">${item.review}</p>
-      </div>
-    `
-        )
-        .join("");
+    `).join("");
 };
 
 // FAQ
 const renderFAQ = async () => {
-    const data = await getData("../public/FAQ.json");
+  const data = await getData("./data/FAQ.json");
 
-    const container = document.getElementById("qna-section");
+  const container = document.getElementById("qna-section");
+  const faqList = data[0]["FAQ"];
 
-    const faqList = data[0]["FAQ"];
-
-    container.innerHTML += `
-    <div class="faq-container">
-      ${faqList
-            .map(
-                (item, index) => `
-        <div class="faq-item">
-          <div class="faq-question">
-            <h4>${item.quastion}</h4>
-            <button class="faq-toggle">+</button>
-          </div>
-          <div class="faq-answer hidden">
-            <p>${item.answer}</p>
-          </div>
+  container.innerHTML += `
+        <div class="faq-container">
+            ${faqList.map(item => `
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>${item.quastion}</h4>
+                        <button class="faq-toggle">+</button>
+                    </div>
+                    <div class="faq-answer hidden">
+                        <p>${item.answer}</p>
+                    </div>
+                </div>
+            `).join("")}
         </div>
-      `
-            )
-            .join("")}
-    </div>
-  `;
+    `;
 
-    // toggle
-    document.querySelectorAll(".faq-toggle").forEach((btn) => {
-        btn.addEventListener("click", () => {
-            const answer = btn.parentElement.nextElementSibling;
+  document.querySelectorAll(".faq-toggle").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const answer = btn.parentElement.nextElementSibling;
 
-            answer.classList.toggle("hidden");
-            btn.textContent = answer.classList.contains("hidden") ? "+" : "−";
-        });
+      answer.classList.toggle("hidden");
+      btn.textContent = answer.classList.contains("hidden") ? "+" : "−";
     });
+  });
 };
 
-// calling all function
+// INIT
 renderVideos();
 renderReviews();
 renderFAQ();
