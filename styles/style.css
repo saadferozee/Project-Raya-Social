@@ -559,8 +559,29 @@ nav {
 #why-section {
     background: white;
     max-width: 1400px;
-    margin: 40px auto;
+    margin: 80px auto;
+    gap: 48px;
 }
+#why-section img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+#why-section .details {
+    align-items: start;
+    justify-content: center;
+    gap: 32px;
+}
+#why-section .details h2 {
+    font-weight: 700;
+    font-size: 48px;
+}
+#why-section .details p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
 /* why section ends here */
 
 /* review section starts here */
